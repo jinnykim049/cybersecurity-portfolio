@@ -37,4 +37,16 @@ Each subfolder contains:
 - A write-up of the room
 - Screenshots of the analysis process
 - Key commands/queries used
+
+
+This repository follows the learning structure from [TryHackMe - SOC Level 1 Learning Path](https://tryhackme.com/path/outline/soc-level-1), which simulates real-world SOC analyst workflows and practical detection tasks.
+
+Each folder corresponds to a learning module in the path:
+1. Introduction to SOC
+2. Windows Logs
+3. Malware Traffic Analysis
+4. Kibana
+5. Splunk
+6. Detection Engineering
+ 
  
