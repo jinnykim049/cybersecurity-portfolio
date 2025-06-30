@@ -1,0 +1,72 @@
+
+This summary outlines the key responsibilities and progression path within a Security Operations Center (SOC), based on the standard three-tier model widely adopted in the industry.
+
+---
+# What is Junior(Associate) Security Analyst? - Understanding the SOC Three-Tier Model
+
+Junior Security Analyst role is like a Triage Specialist. Triage Specialist will spend a lot of time triaging or monitoring the event logs and alerts. 
+
+## Tier 1 – Junior Security Analyst (Triage)
+
+Primary Role of Tier 1
+- First line of defense
+- Monitors event logs and alerts in a 24x7 environment
+
+Primary Responsibilities of Tier 1
+- Triage incoming alerts and assess their severity
+- Create tickets and escalate incidents as needed
+- Configure and manage basic security tools (e.g., IDS)
+- Participate in SOC working groups
+- Close benign alerts, and document investigative steps
+
+They are required to know about.. 
+- Basic networking (OSI & TCP/IP models)
+- Windows/Linux fundamentals
+- Scripting knowledge (Python/Bash) is a plus
+
+---
+
+## Tier 2 – Incident Responder
+
+Primary Role of Tier 2:
+- Investigate escalated incidents
+- Perform deeper log correlation and forensic analysis
+
+Primary Responsibilities of Tier 2: 
+- Analyze attack patterns and identify root causes
+- Respond to ongoing threats (containment, remediation)
+- Hunt for adversary presence within the network
+- Review Tier 1 work and provide feedback
+
+---
+
+## Tier 3 – Threat Hunter
+
+Primary Role of Tier 3:
+- Advanced threat research and proactive hunting. 
+
+Primary Responsibilities of Tier 3: 
+- Develop detection logic for unknown threats
+- Perform malware reverse engineering
+- Conduct adversary emulation exercises
+- Contribute to threat intelligence feeds and signatures
+
+---
+
+## Why This Matters to Me
+
+As someone preparing for a **SOC Tier 1 internship or junior analyst role**, this model helps me:
+- Understand where my responsibilities begin and end
+- Know what I need to escalate vs resolve
+- Build a roadmap for advancing toward Tier 2/3 roles
+
+My current learning (TryHackMe SOC Level 1, Security+, practical log analysis) aligns well with the Tier 1 requirements. I aim to:
+- Master alert triage and basic log interpretation
+- Improve my ticketing/report writing skills
+- Strengthen my OS/networking fundamentals
+
+
+
+
+
+ 

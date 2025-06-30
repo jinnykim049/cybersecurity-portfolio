@@ -12,6 +12,19 @@ The path is designed to simulate real-world SOC (Security Operations Center) ana
 
 Each directory corresponds to a specific TryHackMe room I completed as part of this path.
 
+## 🎯 Why I did this
+Rather than just solving pre-built rooms, I approached each challenge with a real SOC workflow in mind:
+- What's the incident?
+- Where would I look first as a SOC analyst?
+- Which artifacts would confirm the attacker’s behavior?
+
+## 🔎 My Focus per Topic
+- Windows Logs → focused on correlation between 4624 and 4688 (logon + process creation)
+- SIEM → optimized search queries to reduce alert noise
+- Phishing → reversed engineered EML headers + tested sandboxed click behavior
+
+
+
 ## 🧠 What I learned
 - How to analyze Windows Event Logs for suspicious behavior
 - How to use Splunk and Kibana for log correlation and threat detection
