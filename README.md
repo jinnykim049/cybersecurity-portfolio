@@ -3,6 +3,8 @@
 # TryHackMe - SOC Level 1 Portfolio
 
 This repository contains my personal write-ups and summaries from completing the **TryHackMe - SOC Level 1 Learning Path**.
++ Internet research to give more details/support from part to part. 
+
 
 The path is designed to simulate real-world SOC (Security Operations Center) analyst responsibilities, including:
 - log analysis
