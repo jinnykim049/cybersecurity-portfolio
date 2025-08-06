@@ -1,9 +1,41 @@
-# cybersecurity-portfolio
+## cybersecurity-portfolio
+
+# Personal Projects 
+**Project 1: Brute-force login attempt detection and response project (Splunk)**
+Simulated brute-force attacks using synthetic Windows Event Logs (Event ID 4625) in Splunk.
+
+- Parsed SourceIP, AccountName, LogonType to detect failed logins.
+- Flagged IPs with >20 failures/hour -> tagged as High Risk.
+- Used 'iplocation' for geolocation enrichment.
+- Created dashboards + alert workflows.
+- Mapped to MITRE T1110: Brute Force.
+
+* Learned:  
+SPL query writing, alerting, threat modeling, data enrichment, SIEM workflows 
+
+
+**Project 2: Credential Threat Detection & DNS Tunneling Analysis (Wireshark + MITRE)**
+Analyzed 3 PCAPs for credential theft & covert exfiltration techniques (DNS Tunneling Attack).
+
+- HTTP Basic Auth -> Decoded credentials (T1040, T1071.001)
+- Kerberos -> Detected offline cracking risk via AS-REQ (T1557, T1003.004)
+- DNS Tunneling -> Identified TXT abuse & encoded subdomains (T1071.004)
+
+* Learned:  
+Wireshark filtering, traffic analysis, MITRE mapping, attacker detection patterns
+
+
+
+> These projects (1&2) reflect my skills in threat detection, network forensics, and real-world TTP analysis using Splunk & Wireshark.
+
+
+
+
 
 # TryHackMe - SOC Level 1 Portfolio
-
 This repository contains my personal write-ups and summaries from completing the **TryHackMe - SOC Level 1 Learning Path**.
-+ Internet research to give more details/support from part to part. 
+All contents are personally executed, documented, and interpreted to demonstrate my understanding of topics such as network security, SIEM, and digital forensics.
+Some module names are referenced only for educational purposes. 
 
 
 The path is designed to simulate real-world SOC (Security Operations Center) analyst responsibilities, including:
@@ -14,54 +46,14 @@ The path is designed to simulate real-world SOC (Security Operations Center) ana
 
 Each directory corresponds to a specific TryHackMe room I completed as part of this path.
 
-## 🎯 Why I did this
+* Why I did this: 
 Rather than just solving pre-built rooms, I approached each challenge with a real SOC workflow in mind:
 - What's the incident?
 - Where would I look first as a SOC analyst?
 - Which artifacts would confirm the attacker’s behavior?
 
-## 🔎 My Focus per Topic
-- Windows Logs → focused on correlation between 4624 and 4688 (logon + process creation)
-- SIEM → optimized search queries to reduce alert noise
-- Phishing → reversed engineered EML headers + tested sandboxed click behavior
-
-
-
-## 🧠 What I learned
-- How to analyze Windows Event Logs for suspicious behavior
-- How to use Splunk and Kibana for log correlation and threat detection
-- Common attacker behaviors (brute-force, privilege escalation, etc.)
-- Interpreting Sysmon logs, Event IDs, and network artifacts
-
-## ✅ Rooms Completed
-| Room Name | Description |
-|-----------|-------------|
-| `Intro to SOC` | Overview of SOC roles and responsibilities |
-| `Windows Logs` | Hands-on analysis of local Windows event logs |
-| `Kibana Lab` | Using Kibana to detect attack patterns |
-| `Splunk Search` | Basic Splunk query building for SOC analysts |
-
-## 🔧 Tools Used
-- Windows Event Viewer / Sysmon
-- Kibana / Elasticsearch
-- Splunk
-- TryHackMe platform
-
-## 🗂️ How to navigate this repo
-Each subfolder contains:
-- A write-up of the room
-- Screenshots of the analysis process
-- Key commands/queries used
-
-
 This repository follows the learning structure from [TryHackMe - SOC Level 1 Learning Path](https://tryhackme.com/path/outline/soc-level-1), which simulates real-world SOC analyst workflows and practical detection tasks.
 
-Each folder corresponds to a learning module in the path:
-1. Introduction to SOC
-2. Windows Logs
-3. Malware Traffic Analysis
-4. Kibana
-5. Splunk
-6. Detection Engineering
+Note: This portfolio is still on-going. 
  
  
